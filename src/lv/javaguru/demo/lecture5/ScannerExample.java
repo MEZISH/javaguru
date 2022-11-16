@@ -11,7 +11,9 @@ public class ScannerExample {
         int number;
         do {
             number = scanner.nextInt();
-            System.out.println("Jūs ievadījāt:" + number);
+            if (number == -1) {
+                System.out.println("Jūs ievadījāt:" + number);
+            }
         } while (number != -1);
     }
 }
