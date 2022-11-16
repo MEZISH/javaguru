@@ -7,6 +7,16 @@ public class Person {
     private int weight;
     private boolean isHungry;
 
+    public Person(String name, int age, int weight, boolean isHungry) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.isHungry = isHungry;
+    }
+
+    public Person() {
+    }
+
     public String getName() {
         return name;
     }
@@ -37,5 +47,10 @@ public class Person {
 
     public void setHungry(boolean isHungry) {
         this.isHungry = isHungry;
+    }
+
+    public void eat(String food) {
+        System.out.println("I ate " + food + " now");
+        this.isHungry = false;
     }
 }
