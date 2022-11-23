@@ -8,9 +8,11 @@ public class BallGame {
     public static void main(String[] args) {
         Random random = new Random();
         int random_number;
+
         random_number = random.nextInt(3) + 1;
 
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please Enter Number from 1 to 3!");
 
         int number;

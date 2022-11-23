@@ -6,6 +6,6 @@ public class DemoSum {
     public static void main(String[] args) {
         Random generator = new Random();
         int randomint = generator.nextInt(101);
-        System.out.println("My random nummber is; " +randomint);
+        System.out.println("My random nummber is; " + randomint);
     }
 }

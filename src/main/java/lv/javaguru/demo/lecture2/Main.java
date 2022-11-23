@@ -1,8 +1,5 @@
 package lv.javaguru.demo.lecture2;
 
-import java.time.Clock;
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {
