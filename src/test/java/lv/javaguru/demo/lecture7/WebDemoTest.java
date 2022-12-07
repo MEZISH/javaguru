@@ -32,7 +32,7 @@ public class WebDemoTest {
         Thread.sleep(1000);
 
         String actualAge = ageFromInput.getAttribute("value");
-        Assertions.assertThat(actualAge).isEqualTo("1");
+        Assertions.assertThat(Integer.parseInt(actualAge)).isEqualTo(1);
     }
 
     @After
