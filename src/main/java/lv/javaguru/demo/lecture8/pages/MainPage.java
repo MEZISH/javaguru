@@ -5,11 +5,9 @@ import org.openqa.selenium.WebDriver;
 
 public class MainPage {
 
-    private WebDriver driver;
-
     private static final By CARS_LINK = By.xpath("//*[@id='mtd_97']");
-
     private static final By DOGS_LINK = By.xpath("//*[@id='mtd_300']");
+    private WebDriver driver;
 
     public MainPage(WebDriver driver) {
         this.driver = driver;

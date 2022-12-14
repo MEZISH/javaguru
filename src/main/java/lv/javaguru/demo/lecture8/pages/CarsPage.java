@@ -6,13 +6,10 @@ import org.openqa.selenium.support.ui.Select;
 
 public class CarsPage {
 
-    private WebDriver driver;
-
     private static final By MIN_PRICE_INPUT = By.xpath("//*[@id='f_o_8_min']");
-
     private static final By MAX_PRICE_INPUT = By.xpath("//*[@id='f_o_8_max']");
-
     private static final By COLOR_SELECT_DROPDOWN = By.xpath("//*[@id='f_o_17']");
+    private WebDriver driver;
 
     public CarsPage(WebDriver driver) {
         this.driver = driver;
