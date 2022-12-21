@@ -11,7 +11,7 @@ public class LightColorDetectorTest extends TestBase {
     public void violetTest() {
         LightColorDetector detector = new LightColorDetector();
 
-        assertThat(detector.detect(490)).as("Violet detector").isEqualTo("Violet");
+        assertThat(detector.detect(440)).as("Violet detector").isEqualTo("Violet");
         System.out.println("Violet test successful!");
     }
 
@@ -19,7 +19,7 @@ public class LightColorDetectorTest extends TestBase {
     public void blueTest() {
         LightColorDetector detector = new LightColorDetector();
 
-        assertThat(detector.detect(440)).as("Blue detector").isEqualTo("Blue");
+        assertThat(detector.detect(490)).as("Blue detector").isEqualTo("Blue");
         System.out.println("Blue test successful!");
     }
 }
